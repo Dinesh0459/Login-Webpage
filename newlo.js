@@ -1,7 +1,7 @@
 function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if (username == "Dinesh32" && password == "Srm3000") {
+    if (username == "Team15" && password == "Srm3000") {
          alert("LOGGED IN SUCCESFULLY");
          window.location.href="http://localhost:8501";
         try {
