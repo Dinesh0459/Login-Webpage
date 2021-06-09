@@ -3,10 +3,10 @@ function validate() {
     var password = document.getElementById("password").value;
     if (username == "Team15" && password == "Srm3000") {
          alert("LOGGED IN SUCCESFULLY");
-         window.location.href="http://localhost:8501";
+         window.location.href="https://share.streamlit.io/dinesh0459/face-mask/main";
         try {
             // window.location.href = "./login.html";
-            setTimeout(function(){document.location.href = "http://localhost:8501"},500);
+            setTimeout(function(){document.location.href = "https://share.streamlit.io/dinesh0459/face-mask/main"},500);
 
         } catch(err) {
             console.log(err);
